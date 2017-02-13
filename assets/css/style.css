@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-brand {
 	font-weight: 800;
+	font-size:1.2em;
 }
 
 .navbar-default .navbar-brand {
@@ -84,6 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default {
 	background-color: transparent;
 	border-color: transparent;
+	font-size: 1.2em;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
 	color:#b98904;
@@ -162,7 +164,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #footerwrap p {
 	color: #f2f2f2;
-	margin-left: 10px;
 }
 #footerwrap a{
 	color:#803ecc;
