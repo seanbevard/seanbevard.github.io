@@ -17,14 +17,14 @@
 
 
 ::-moz-selection {
-    background: #f2c2c9;
-    color: #a4003a;
+    background: #5e299a;
+    color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: #16a085;
-    color: #a4003a;
+    background: #5e299a;
+    color: #fff;
     text-shadow: none;
 }
 
@@ -62,51 +62,55 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
-
+	background-color: #f2f2f2;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
-    color: #4a4a4a;
+    color: #2f2f2f;
 }
 
 
 .navbar-brand {
-	font-weight: 700;
+	font-weight: 800;
 }
 
 .navbar-default .navbar-brand {
-	color: #5e299a;
+	color: #fde192;
 }
 
 .navbar-default {
 	background-color: transparent;
 	border-color: transparent;
 }
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+	color:#b98904;
+}
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #5e299a;
+	color: #fde192;
 	background-color: transparent;
-	border-bottom: 2px solid #5e299a;
+	border-bottom: 3px solid #fde192;
 }
 
-.navbar-default .navbar-nav > li > a {
-	color: #5e299a;
+.navbar-default .navbar-nav > li > a{
+	color:#fde192;
+	} .navbar-default .navbar-nav > li > a:hover{
+	color: #b98904;
 }
-
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
 
 #headerwrap {
 	background: url(../img/back.jpg) no-repeat center top;
-	margin-top: -95px;
+	margin-top: -80px;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
-	background-position: center center;
+	background-position: center top;
 	min-height: 650px;
 	width: 100%;
 	
@@ -121,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-#headerwrap h1 {
+#headerwrap h1, #aboutwrap h1 {
 	color:#ffffff;
 	padding-top: 10px;
 	padding-bottom: 20px;
@@ -130,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 
-#headerwrap h4 {
+#headerwrap h4, #aboutwrap h4 {
 	font-weight: 400;
 	color: #ffffff
 }
@@ -138,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 #social {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background-color: #f2f2f2;
+	background-color: #b8b8b8;
 }
 
 #social i {
@@ -160,10 +164,15 @@ h1, h2, h3, h4, h5, h6 {
 	color: #f2f2f2;
 	margin-left: 10px;
 }
-
+#footerwrap a{
+	color:#803ecc;
+}
+#footerwrap a:hover{
+	color:#5e299a;
+}
 #workwrap {	
 	background: url(../img/work.jpg) no-repeat center top;
-	margin-top: -95px;
+	margin-top: -80px;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
@@ -196,9 +205,12 @@ h1, h2, h3, h4, h5, h6 {
 	color: #ffffff
 }
 
+mark{
+
+}
 #aboutwrap {	
-	background: url(../img/about.jpg) no-repeat center top;
-	margin-top: -95px;
+	background: url(../img/about.jpg) no-repeat;
+	margin-top: -80px;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
