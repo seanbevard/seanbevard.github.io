@@ -292,7 +292,16 @@ input[type=message]{
 	padding-left: 5px;
 	padding-right:5px;
 }
-
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle{
+	margin-right:30px;
+	border-color:#E4B92E;
+	border:1px solid #E4B92E;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color:#E4B92E;
+}
 /*didn't want to add a media tag here but on smaller screens my last name was too
 long and it was driving me nuts.*/
 @media only screen and (max-width: 410px)  {
