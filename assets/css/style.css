@@ -169,7 +169,8 @@ h1, h2, h3, h4, h5, h6 {
 	color:#803ecc;
 }
 #footerwrap a:hover{
-	color:#340865;
+	color:#9342f0;
+	text-decoration: none;
 }
 #workwrap {	
 	background: url(../img/work.jpg) no-repeat center top;
