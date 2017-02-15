@@ -17,13 +17,13 @@
 
 
 ::-moz-selection {
-    background: #5e299a;
+    background: #340865;
     color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: #5e299a;
+    background: #340865;
     color: #fff;
     text-shadow: none;
 }
@@ -62,7 +62,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
-	background-color: #f2f2f2;
+	background-color: #fff;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
@@ -74,12 +74,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .navbar-brand {
-	font-weight: 800;
+	font-weight: 500;
 	font-size:1.2em;
 }
 
 .navbar-default .navbar-brand {
-	color: #fde192;
+	color: #E4B92E;
 }
 
 .navbar-default {
@@ -92,13 +92,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #fde192;
+	color: #E4B92E;
 	background-color: transparent;
-	border-bottom: 3px solid #fde192;
+	border-bottom: 3px solid #E4B92E;
 }
 
 .navbar-default .navbar-nav > li > a{
-	color:#fde192;
+	color:#E4B92E;
 	} .navbar-default .navbar-nav > li > a:hover{
 	color: #b98904;
 }
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-#headerwrap h1, #aboutwrap h1 {
+#headerwrap h1, #aboutwrap h1, #contactwrap h1 {
 	color:#ffffff;
 	padding-top: 10px;
 	padding-bottom: 20px;
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 
-#headerwrap h4, #aboutwrap h4 {
+#headerwrap h4, #aboutwrap h4, #contactwrap h4{
 	font-weight: 400;
 	color: #ffffff
 }
@@ -148,12 +148,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #social i {
-	font-size: 40px;
+	font-size: 75px;
 	color: #4a4a4a
 }
 
 #social i:hover {
-	color: #5e299a;
+	color: #340865;
 }
 
 #footerwrap {
@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 	color:#803ecc;
 }
 #footerwrap a:hover{
-	color:#5e299a;
+	color:#340865;
 }
 #workwrap {	
 	background: url(../img/work.jpg) no-repeat center top;
@@ -229,7 +229,26 @@ mark{
     -o-background-size: cover;
     background-size: cover;
 }
+#contactwrap {	
+	background: url(../img/email.jpg) no-repeat;
+	margin-top: -80px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 
 
@@ -241,3 +260,27 @@ mark{
 .gallery img:hover {
 	opacity: 0.4;
 }
+input[type=text], select, textarea{
+    width: 30%;
+    text-align:left;
+    color: #000000;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+    font-family: inherit;
+}
+input[type=submit] {
+    width: 20%;
+    background-color: #340865;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 25px;
+}	
